@@ -1,0 +1,12 @@
+[package]
+name = "tests"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+rust-version = "1.89.0"
+
+[dependencies]
+litesvm = "0.9.1"
+sha2 = "0.10.9"
+solana-sdk = "3.0.0"
+solana-security-template = { version = "0.1.0", path = "../programs/solana-security-template" }
